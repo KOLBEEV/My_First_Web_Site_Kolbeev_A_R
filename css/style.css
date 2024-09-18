@@ -1,0 +1,13 @@
+body{
+    background-color: rgba(27, 2, 116, 0.762);
+}
+
+h2{
+    font-family: 'Font';
+    color: white;
+}
+
+@font-face {
+    font-family: 'Font';
+    src: url(font/font.ttf);
+}
