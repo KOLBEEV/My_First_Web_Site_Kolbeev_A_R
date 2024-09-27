@@ -4,10 +4,26 @@ body{
 
 h2{
     font-family: 'Font';
-    color: white;
+    color: rgb(8, 8, 8);
 }
 
 @font-face {
     font-family: 'Font';
     src: url(../font/font.ttf);
+}
+
+ /* Стили для ссылок */
+ a {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 5px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Стили при наведении на ссылки */
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+    transform: scale(1.05);
 }

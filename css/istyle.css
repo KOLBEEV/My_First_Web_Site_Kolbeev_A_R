@@ -1,0 +1,36 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa; /* Фон страницы */
+}
+
+.index {
+    border: 2px solid #007bff; /* Синяя рамка */
+    padding: 20px;
+    border-radius: 10px; /* Скругленные углы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для рамки */
+    background-color: #ffffff; /* Белый фон */
+    text-align: center; /* Центрирование текста */
+    width: 100%; /* Ширина блока */
+    max-width: 600px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #007bff; /* Цвет заголовка */
+}
+
+a {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
