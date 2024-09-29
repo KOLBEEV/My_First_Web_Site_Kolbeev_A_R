@@ -37,7 +37,7 @@ if (isset($_COOKIE['User'])) {
     header("Location: login.php");
 }
 
-$link = mysqli_connect('127.0.0.1','root','280200','first');
+$link = mysqli_connect('db','root','280200','first');
 
 if (isset($_POST['submit'])) {
     $email = $_POST['email'];
